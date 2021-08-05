@@ -17,7 +17,7 @@ fileRead.close()
 fileWrite.close()
 
 time.sleep(5)  # есть 5 секунд, чтобы навести курсор на поле для ввода сообщения
-pyautogui.hotkey('shift','altleft') # переключает раскладку с английского на русскую
+pyautogui.hotkey('shift','altleft') # переключает раскладку с английской на русскую
 for word in open('scriptTranslate.txt','r'):
      pyautogui.write(word)
      pyautogui.press('enter')
